@@ -28,4 +28,4 @@ a=list(input())
 b=list(set(a))
 b.sort()
 for i in b:
-print(i+':'+str(a.count(i)))
+  print(i+':'+str(a.count(i)))
