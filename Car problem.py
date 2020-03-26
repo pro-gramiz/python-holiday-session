@@ -15,8 +15,8 @@ Valid
 #answer
 a=list(input())
 while(len(a)>1):
-x=0
-for i in a:
-x+=int(i)
-a=list(str(x))
+    x=0
+    for i in a:
+        x+=int(i)
+    a=list(str(x))
 print('Valid' if a[0]=='1' or a[0]=='3' else 'Invalid')
