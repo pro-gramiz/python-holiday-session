@@ -26,8 +26,8 @@ Sample Output 0
 a=list(input())
 x,y='',''
 for i in a:
-if int(i)%2==0:
-y+=i
-else:
-x+=i
+  if int(i)%2==0:
+    y+=i
+  else:
+    x+=i
 print(x+y)
