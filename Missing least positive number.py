@@ -27,11 +27,11 @@ a=list(map(int,input().split()))
 a.sort()
 x=min(a)
 if 1 not in a:
-print(1)
+  print(1)
 else:
-while(True):
-if x+1 in a:
-x+=1
-else:
-print(x+1)
-break
+  while(True):
+    if x+1 in a:
+      x+=1
+    else:
+      print(x+1)
+      break
