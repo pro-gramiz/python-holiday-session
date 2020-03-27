@@ -26,3 +26,12 @@ m + i + ss + i + ng = ng + i + ss + n The string are taken as fragments {m,ss,ng
 
 ****************************************************************************
 #answer
+from re import *
+s=input()
+k='[a,e,i,o,u,A,E,I,O,U]+'
+al=split(k,s)[::-1]
+v=findall(k,s)
+res=al[0]
+for i in range(1,len(al)):
+    res+=(v[i-1]+al[i])
+print(res)
